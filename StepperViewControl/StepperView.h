@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PrettyLabel.h"
+#import "PrettyButton.h"
+#import <QuartzCore/QuartzCore.h>
 
 // Protocol for StepperViewDelegate
 //
@@ -20,7 +22,12 @@
 //
 @interface StepperView : UIView
 {
-    UILabel *displayLabel;
+    PrettyLabel *displayLabel;
 }
 @property (nonatomic, weak) id<StepperViewDelegate> delegate;
+@property (nonatomic, assign) int numberMax;
+@property (nonatomic, assign) int numberMin;
+@property (nonatomic, strong) NSString *plusSignText;
+@property (nonatomic, strong) NSString *minusSignText;
+
 @end

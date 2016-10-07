@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E936FA411DA7582F001959BB /* PrettyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E936FA401DA7582F001959BB /* PrettyLabel.m */; };
+		E93DDD0B1DA8087700AE2868 /* PrettyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DDD0A1DA8087700AE2868 /* PrettyButton.m */; };
 		E94704DD1DA6C937006D8CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94704DC1DA6C937006D8CD1 /* main.m */; };
 		E94704E01DA6C937006D8CD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94704DF1DA6C937006D8CD1 /* AppDelegate.m */; };
 		E94704E31DA6C937006D8CD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94704E21DA6C937006D8CD1 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E936FA3F1DA7582F001959BB /* PrettyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyLabel.h; sourceTree = "<group>"; };
+		E936FA401DA7582F001959BB /* PrettyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyLabel.m; sourceTree = "<group>"; };
+		E93DDD091DA8087700AE2868 /* PrettyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyButton.h; sourceTree = "<group>"; };
+		E93DDD0A1DA8087700AE2868 /* PrettyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyButton.m; sourceTree = "<group>"; };
 		E94704D81DA6C937006D8CD1 /* StepperViewControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepperViewControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94704DC1DA6C937006D8CD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E94704DE1DA6C937006D8CD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +90,10 @@
 		E94704CF1DA6C937006D8CD1 = {
 			isa = PBXGroup;
 			children = (
+				E93DDD091DA8087700AE2868 /* PrettyButton.h */,
+				E93DDD0A1DA8087700AE2868 /* PrettyButton.m */,
+				E936FA3F1DA7582F001959BB /* PrettyLabel.h */,
+				E936FA401DA7582F001959BB /* PrettyLabel.m */,
 				E94704DA1DA6C937006D8CD1 /* StepperViewControl */,
 				E94704F41DA6C937006D8CD1 /* StepperViewControlTests */,
 				E94704FF1DA6C937006D8CD1 /* StepperViewControlUITests */,
@@ -278,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E936FA411DA7582F001959BB /* PrettyLabel.m in Sources */,
+				E93DDD0B1DA8087700AE2868 /* PrettyButton.m in Sources */,
 				E94704E31DA6C937006D8CD1 /* ViewController.m in Sources */,
 				E94704E01DA6C937006D8CD1 /* AppDelegate.m in Sources */,
 				E94705101DA6CB29006D8CD1 /* StepperView.m in Sources */,
@@ -513,6 +525,7 @@
 				E94705071DA6C937006D8CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94705081DA6C937006D8CD1 /* Build configuration list for PBXNativeTarget "StepperViewControlTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				E947050A1DA6C937006D8CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E947050B1DA6C937006D8CD1 /* Build configuration list for PBXNativeTarget "StepperViewControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +543,7 @@
 				E947050D1DA6C937006D8CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

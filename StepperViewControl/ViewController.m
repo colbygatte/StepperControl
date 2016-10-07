@@ -22,13 +22,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
     self.view.backgroundColor = [UIColor colorWithRed:130.0f/255.0f green:140.0f/255.0f blue:200.0f/255.0f alpha:1.0f];
+    
     self.label.backgroundColor = [UIColor colorWithRed:100.0f/255.0f green:120.0f/255.0f blue:180.0f/255.0f alpha:1.0f];
+    self.label.layer.cornerRadius = 10;
+    self.label.layer.masksToBounds = YES;
     
     // Make StepperView frame
     CGRect frame = CGRectMake(0, 0, 350, 75);
     StepperView *stepperView = [[StepperView alloc] initWithFrame:frame];
+    //
+    stepperView.layer.cornerRadius = 10;
+    stepperView.layer.masksToBounds = YES;
+    //
     stepperView.delegate = self;
+    stepperView.numberMax = 10;
+    stepperView.numberMin = 0;
+    stepperView.plusSignText = @"+";
+    stepperView.minusSignText = @"-";
     
     // Center
     CGPoint center = self.view.center;

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "StepperView.h"
+#import "PrettyLabel.h"
 
 
 @interface ViewController : UIViewController <StepperViewDelegate>
